@@ -1,0 +1,135 @@
+﻿<Window x:Class="WPF11_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF11_2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="450">
+    <Grid>
+        <Path Data="M197.86278,580.94215 C281.86519,493.89753 256.6389,428.83404 214.59336,354.47578 183.10975,298.79646 245.42596,187.16968 245.42596,187.16968" HorizontalAlignment="Left" Height="391.284" Margin="199.547,185.5,0,-7.784" Stretch="Fill" Stroke="#FF2CA426" VerticalAlignment="Top" Width="39.8" StrokeThickness="7"/>
+        <Path Data="M208.99998,393.00006 C180.49996,354.00014 188,391.50008 120.5,394.50008 53,397.50007 51.5,393 138.5,432 225.5,471 233,427.5 233,427.5 208.99998,393.49989 208.99998,393.00006 208.99998,393.00006 z" HorizontalAlignment="Left" Height="68" Margin="67,333,0,0" Stretch="Fill" Stroke="#FF2CA426" StrokeThickness="7" VerticalAlignment="Top" Width="177" Fill="#FF5DD13B" RenderTransformOrigin="0.5,0.5">
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="30.22"/>
+                    <RotateTransform Angle="9.937"/>
+                    <TranslateTransform X="3.712" Y="-21.186"/>
+                </TransformGroup>
+            </Path.RenderTransform>
+        </Path>
+        <Ellipse HorizontalAlignment="Left" Height="65" Margin="199.547,132,0,0" Stroke="Black" VerticalAlignment="Top" Width="68.5" RenderTransformOrigin="0.756,0.231" Panel.ZIndex="1">
+            <Ellipse.Fill>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FFF9F9EF"/>
+                    <GradientStop Color="#FFFDBB0C" Offset="1"/>
+                </RadialGradientBrush>
+            </Ellipse.Fill>
+        </Ellipse>
+        <Ellipse HorizontalAlignment="Left" Height="39" Margin="249,156,0,0" Stroke="Black" VerticalAlignment="Top" Width="87" RenderTransformOrigin="0.428,0.743">
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="12.447"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+            <Ellipse.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White" Offset="0"/>
+                    <GradientStop Color="#FF2AD8E0" Offset="1"/>
+                </LinearGradientBrush>
+            </Ellipse.Fill>
+        </Ellipse>
+        <Ellipse HorizontalAlignment="Left" Height="40" Margin="122,146,0,0" Stroke="Black" VerticalAlignment="Top" Width="103">
+            <Ellipse.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White" Offset="0"/>
+                    <GradientStop Color="#FF2AD8E0" Offset="1"/>
+                </LinearGradientBrush>
+            </Ellipse.Fill>
+        </Ellipse>
+        <Ellipse HorizontalAlignment="Left" Height="43" Margin="253,127,0,0" Stroke="Black" VerticalAlignment="Top" Width="82" RenderTransformOrigin="0.428,0.743">
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="58.195"/>
+                    <TranslateTransform X="-37.918" Y="57.104"/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+            <Ellipse.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White" Offset="0"/>
+                    <GradientStop Color="#FF2AD8E0" Offset="1"/>
+                </LinearGradientBrush>
+            </Ellipse.Fill>
+        </Ellipse>
+        <Ellipse HorizontalAlignment="Left" Height="39" Margin="97,163,0,0" Stroke="Black" VerticalAlignment="Top" Width="100" RenderTransformOrigin="0.432,1.183">
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="38.342"/>
+                    <TranslateTransform X="21.733" Y="-76.727"/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+            <Ellipse.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White" Offset="0"/>
+                    <GradientStop Color="#FF2AD8E0" Offset="1"/>
+                </LinearGradientBrush>
+            </Ellipse.Fill>
+        </Ellipse>
+        <Ellipse HorizontalAlignment="Left" Height="40" Margin="286,125,0,0" Stroke="Black" VerticalAlignment="Top" Width="88" RenderTransformOrigin="0.428,0.743">
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="126.383"/>
+                    <TranslateTransform X="-126.015" Y="46.636"/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+            <Ellipse.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White" Offset="0"/>
+                    <GradientStop Color="#FF2AD8E0" Offset="1"/>
+                </LinearGradientBrush>
+            </Ellipse.Fill>
+        </Ellipse>
+        <Ellipse HorizontalAlignment="Left" Height="42" Margin="110,171,0,0" Stroke="Black" VerticalAlignment="Top" Width="89" RenderTransformOrigin="0.5,0.5">
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="139.244"/>
+                    <TranslateTransform X="129.671" Y="-64.542"/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+            <Ellipse.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White" Offset="0"/>
+                    <GradientStop Color="#FF2AD8E0" Offset="1"/>
+                </LinearGradientBrush>
+            </Ellipse.Fill>
+        </Ellipse>
+        <Ellipse HorizontalAlignment="Left" Height="38" Margin="186,82,0,0" Stroke="Black" VerticalAlignment="Top" Width="94" RenderTransformOrigin="0.5,0.5">
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-1.418"/>
+                    <RotateTransform Angle="85.767"/>
+                    <TranslateTransform X="0.031" Y="0.42"/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+            <Ellipse.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White" Offset="0"/>
+                    <GradientStop Color="#FF2AD8E0" Offset="1"/>
+                </LinearGradientBrush>
+            </Ellipse.Fill>
+        </Ellipse>
+
+    </Grid>
+</Window>
