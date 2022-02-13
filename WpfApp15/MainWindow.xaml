@@ -1,0 +1,86 @@
+﻿<Window x:Class="WPF15.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF15"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="700" Width="600">
+    <Grid>
+        <FlowDocumentReader>
+            <FlowDocument>
+                <Paragraph>
+                    <Floater Width="210" HorizontalAlignment="Right">
+                        <BlockUIContainer>
+                            <Image Source="Data/1.jpg"/>
+                        </BlockUIContainer>
+                    </Floater>
+                    <Hyperlink FontSize="20" FontWeight="Black" NavigateUri="https://lapkins.ru/dog/pomeranskiy-shpits/" Cursor="Hand">Порода Шпиц</Hyperlink>
+                </Paragraph>
+                <Paragraph>
+                    <Span Background="#FFC189F1" Foreground="White">
+                        Виды:
+                    </Span>
+                </Paragraph>
+                <List MarkerStyle="Box">
+                    <ListItem>
+                        <Paragraph>
+                            Померанский шпиц
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            Японский шпиц
+                        </Paragraph>
+                    </ListItem>
+                </List>
+                <Section FontFamily="Arial" FontSize="12">
+                    <Table Background="#FFD7F9FA">
+                    <Table.Columns>
+                        <TableColumn Width="*"/>
+                        <TableColumn Width="4*"/>
+                    </Table.Columns>
+                    <TableRowGroup>
+                        <TableRow>
+                                <TableCell BorderBrush="Black" BorderThickness="1" Padding="5">
+                                <Paragraph FontWeight="Bold" TextAlignment="Center">
+                                    Вид
+                                </Paragraph>
+                            </TableCell>
+                                <TableCell BorderBrush="Black" BorderThickness="1" Padding="5">
+                                <Paragraph FontWeight="Bold" TextAlignment="Center">
+                                    Описание
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                                <TableCell BorderBrush="Black" BorderThickness="1" Padding="5">
+                                <Paragraph>
+                                    Японский шпиц
+                                </Paragraph>
+                            </TableCell>
+                                <TableCell BorderBrush="Black" BorderThickness="1" Padding="5">
+                                    <Paragraph>орода собак, некрупный шпиц. Используется в качестве компаньона и домашнего любимца. Порода выведена в 1920-1930-е годы на основе других шпицеобразных пород, признана всеми крупнейшими кинологическими организациями, кроме Американского клуба собаководства.
+                                        <Bold>Активные, симпатизирующие людям и задорные.</Bold>
+                                    </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                                <TableCell BorderBrush="Black" BorderThickness="1" Padding="5">
+                                <Paragraph>
+                                        Померанский шпиц
+                                    </Paragraph>
+                            </TableCell>
+                                <TableCell BorderBrush="Black" BorderThickness="1" Padding="5">
+                                <Paragraph>
+                                        Померанский шпиц – крохотный непоседа с миловидной мордашкой, который не представляет жизни без активных прогулок на свежем воздухе. Порода сочетает в себе недюжинный интеллект и темпераментный характер крупных сородичей. Этот плюшевый медвежонок бесстрашно кинется на вашу защиту, если увидит врага в случайном прохожем. Несмотря на верность и любовь, померанский шпиц не станет подолгу сидеть у ног хозяина. Для него поваляться в листве и выплеснуть энергию в активной игре гораздо интереснее.
+                                        <Bold>Померанец относится к карликовым породам собак. Впрочем, его плотное телосложение и крепкая мускулатура не умаляют изящества и грации. Стандарт FCI предполагает, что высота шпица в холке должна равняться длине его туловища и составлять 18-22 см.</Bold>  </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                    </TableRowGroup>
+                </Table>
+                </Section>
+            </FlowDocument>
+        </FlowDocumentReader>
+    </Grid>
+</Window>
