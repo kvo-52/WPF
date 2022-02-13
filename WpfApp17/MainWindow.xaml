@@ -1,0 +1,20 @@
+﻿<Window x:Class="WPF17.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:lib="clr-namespace:WpfControlLibrary1;assembly=WpfControlLibrary1"
+        Title="ColorPicker" Height="350" Width="500" MinHeight="330" MinWidth="250" WindowStartupLocation="CenterScreen">
+    <StackPanel>
+        <lib:ColorPickerUserControl 
+            Name="colorPicker" 
+            Margin="2" 
+            Padding="3" 
+            ColorChanged="colorPicker_ColorChanged" 
+            Color="#FF000000">
+        </lib:ColorPickerUserControl>
+        <Button Click="cmdGet_Click" Margin="5,20,5,0" Padding="8" FontWeight="Black" Content="Получить цвет"/>
+        <Separator/>
+        <Separator/>
+        <Button Click="cmdSet_Click" Margin="5,0,5,0" Padding="8" FontWeight="Black" Content="Сбросить цвет"/>
+        <TextBlock Name="lblColor" Margin="12" FontWeight="Black" HorizontalAlignment="Center"/>
+    </StackPanel>
+</Window>
