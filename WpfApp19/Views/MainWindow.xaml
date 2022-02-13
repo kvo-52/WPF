@@ -1,0 +1,23 @@
+﻿<Window x:Class="WPF19.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF19"
+        xmlns:vm="clr-namespace:WPF19.ViewModels"
+        mc:Ignorable="d"
+        Title="Расчет длины окружности" Height="250" Width="500" MinHeight="250" MinWidth="300" WindowStartupLocation="CenterScreen">
+    <Window.DataContext>
+        <vm:MainWindowViewModel/>
+    </Window.DataContext>
+    <Border Background="#FFB4E6AD" BorderBrush="Black" BorderThickness="1" CornerRadius="25" Margin="10" Padding="35">
+        <StackPanel>
+            <Label Content="Введите радиус окружности:" HorizontalAlignment="Center" Height="Auto"/>
+            <TextBox Text="{Binding Path=Radius}" TextAlignment="Center" Width="200"/>
+            <Label/>
+            <Button Content="Рассчитать длину окружности" Background="#FF14B9B2" FontWeight="Bold" Width="200" Command="{Binding Path=AddCommand}"/>
+            <Label Content="Длина окружности:" HorizontalAlignment="Center"/>
+            <TextBox Text="{Binding Path=Length}" TextAlignment="Center" Width="200"/>
+        </StackPanel>
+    </Border>
+</Window>
